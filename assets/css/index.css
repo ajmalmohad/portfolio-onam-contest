@@ -19,6 +19,9 @@ main{
     top:0;
     left:0;
 }
+
+/* Hero  */
+
 .hero{
     position: relative;
     font-family: 'Audrey',sans-serif;
@@ -35,6 +38,7 @@ main{
 .hero .second{
     flex:2;
     background: #FAD201;
+    border-bottom-left-radius: 10px;
 }
 .hero .second .maveli{
     position: relative;
@@ -117,5 +121,101 @@ main{
     }
     .hero .first .head{
         margin:25vh 0 15vh 30px;
+    }
+}
+
+/* Hero  */
+
+/* Section 1  */
+.section1{
+    background: #0D4B4B;
+    display: flex;
+    flex-direction: row;
+    padding:20vh 0 10vh 0;
+}
+.section1 .first img{
+    height:50vh;
+    padding:50px;
+    margin-left:10%;
+}
+.section .first{
+    order:1;
+}
+.section1 .second{
+    order:2;
+    display: inline-block;
+    color:rgb(228, 226, 226);
+    padding:0 10% 0 10%;
+    align-self: center;
+    min-width: 600px;
+}
+.section1 .second h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.section1 .second p{
+    line-height: 24px;
+    font-size: 18px;
+}
+@media only screen and (max-width: 980px){
+    .section1 .first img{
+        height:45vh;
+        padding:30px;
+        margin-left:5%;
+    }
+    .section1 .second h2{
+        font-size: 38px;
+    }
+    .section1 .second p{
+        line-height: 24px;
+        font-size: 18px;
+    }
+    .section1 .second{
+        padding:0 8% 0 5%;
+        min-width: 400px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .section1 .first img{
+        height:40vh;
+        padding:20px;
+        margin-left:5%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .section1{
+        flex-direction: column;
+        padding:15vh 30px 10vh 30px;
+    }
+    .section1 .second{
+        order:1;
+        min-width: none;
+        padding:0 40px 5vh 20px;
+        align-self: unset;
+    }
+    .section1 .first{
+        order:2;
+    }
+    .section1 .first img{
+        height: 50vh;
+        padding:auto;
+        position: relative;
+        left:50%;
+        transform: translate(-50%);
+    }
+}
+@media only screen and (max-width: 600px){
+    .section1 .first img{
+        height:40vh;
+    }
+}
+@media only screen and (max-width: 420px){
+    .section1 .second{
+        padding:0 10px 5vh 10px;
+        min-width: 200px;
+    }
+    .section1 .second p{
+        line-height: 24px;
+        font-size: 16px;
     }
 }
