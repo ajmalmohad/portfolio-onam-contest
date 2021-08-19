@@ -15,8 +15,12 @@ body{
 }
 main{
     position: relative;
+    overflow-x: hidden;
+    top:0;
+    left:0;
 }
 .hero{
+    position: relative;
     font-family: 'Audrey',sans-serif;
     background: #0D4B4B;
     height:100vh;
