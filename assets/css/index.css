@@ -1,8 +1,3 @@
-@font-face {
-    font-family: 'Audrey';
-    src:  url('./../font/Audrey-Bold.woff2') format('woff2'),
-          url('./../font/Audrey-Bold.woff') format('woff');
-}
 
 *{
     margin:0;
@@ -24,7 +19,6 @@ main{
 
 .hero{
     position: relative;
-    font-family: 'Audrey',sans-serif;
     background: #0D4B4B;
     height:100vh;
     width: 100%;
