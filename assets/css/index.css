@@ -13,6 +13,9 @@
 body{
     overflow-x: hidden;
 }
+main{
+    position: relative;
+}
 .hero{
     font-family: 'Audrey',sans-serif;
     background: #0D4B4B;
