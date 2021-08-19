@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Audrey';
+    src:  url('./../font/Audrey-Bold.woff2') format('woff2'),
+          url('./../font/Audrey-Bold.woff') format('woff');
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.hero{
+    font-family: 'Audrey',sans-serif;
+    background: #0D4B4B;
+    height:100vh;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+}
+.hero .first{
+    flex:3;
+    min-width: 500px;
+}
+.hero .second{
+    flex:2;
+    background: #FAD201;
+}
+.hero .second .maveli{
+    position: relative;
+    height:70vh;
+    margin:15vh 0 15vh -30%;
+}
+.hero .first h1{
+    color:whitesmoke;
+    font-size: 60px;
+}
+.hero .first .head{
+    margin:35vh 0 0 100px;
+}
+.hero .first .head span{
+    color:#FAD201;
+    border-bottom:thin dotted white;
+}
+.hero .first .head p{
+    font-family: sans-serif;
+    margin-right:30%;
+    margin-top:20px;
+    line-height: 24px;
+    font-size: 18px;
+    color:rgb(228, 226, 226);
+}
+.hero .first nav{
+    display: flex;
+    flex-direction: row;
+    height:10vh;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    align-items: center;
+    padding:20px;
+    justify-content: space-between;
+    font-variant: small-caps;
+}
+.hero .first nav .onam{
+    color:#0D4B4B;
+}
+.hero .first nav .happy{
+    color:#FAD201;
+}
+@media only screen and (max-width: 750px) {
+    .hero{
+        flex-direction: column;
+        height: auto;
+    }
+    .hero .first nav .onam{
+        color:#FAD201;
+    }
+    .hero .first .head{
+        margin:25vh 0 15vh 80px;
+    }
+    .hero .second .maveli{
+        height:60vh;
+        margin:10vh 0 0 5vh;
+        left:50%;
+        transform: translate(-55%);
+    }
+}
+@media only screen and (max-width: 520px) {
+    .hero .first .head{
+        margin:25vh 0 15vh 50px;
+    }
+    .hero .first h1{
+        font-size: 50px;
+    }
+    .hero .first .head p{
+        margin-right:30%;
+    }
+    .hero .second .maveli{
+        height:50vh;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .hero .first .head p{
+        margin-right:40%;
+    }
+    .hero .first .head{
+        margin:25vh 0 15vh 30px;
+    }
+}
