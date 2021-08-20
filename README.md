@@ -10,7 +10,7 @@
 
 
 
-![demo](\assets\img\demo.jpg)
+![demo](https://raw.githubusercontent.com/arjun-ms/portfolio-onam-contest/master/assets/img/demo.jpg)
 
 
 ## 🎨 Color Reference
