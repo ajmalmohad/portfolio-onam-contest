@@ -1,5 +1,5 @@
 <h1 align="center">
-  Maveli.com 
+  Maveli 
 </h1>
 
 <p align="center">
