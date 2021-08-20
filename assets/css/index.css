@@ -13,6 +13,7 @@ main{
     overflow-x: hidden;
     top:0;
     left:0;
+    background: #0D4B4B;
 }
 
 /* Hero  */
@@ -49,6 +50,22 @@ main{
 .hero .first .head span{
     color:#FAD201;
     border-bottom:thin dotted white;
+}
+.hero .first .head span::before{
+    content:"Maveli";
+    animation: animate 3s infinite;
+    animation-timing-function: ease;
+}
+@keyframes animate{
+    0%{
+        content:"Maveli";
+    }
+    50%{
+        content: "Bali";
+    }
+    100%{
+        content:"Mahabali";
+    }
 }
 .hero .first .head p{
     font-family: sans-serif;
@@ -299,4 +316,13 @@ main{
     .section3{
         padding:10vh 30px 10vh 50px;
     }
+}
+/* Section 3  */
+
+/* Section 4  */
+.section4{
+    background: #FAD201;
+    padding:10vh 80px;
+    color:#0D4B4B;
+    border-top-left-radius: 10px;
 }
