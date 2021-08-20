@@ -53,8 +53,9 @@ main{
 }
 .hero .first .head span::before{
     content:"Maveli";
-    animation: animate 3s infinite;
+    animation: animate 5s infinite;
     animation-timing-function: ease;
+    position: relative;
 }
 @keyframes animate{
     0%{
@@ -325,4 +326,67 @@ main{
     padding:10vh 80px;
     color:#0D4B4B;
     border-top-left-radius: 10px;
+}
+.section4 h1{
+    font-size: 36px;
+}
+.section4 p{
+    font-size: 24px;
+    margin:20px 0;
+    font-weight: 600;
+    margin-top:40px;
+}
+.section4 input{
+    padding:10px;
+    border-radius: 10px;
+    width:60%;
+    border:1px solid #0D4B4B;
+}
+.section4 button{
+    padding:10px 20px;
+    background: #0D4B4B;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    margin:20px 0;
+    font-size: 18px;
+}
+.section4 h3{
+    font-size: 20px;
+    padding:20px 0 0 0;
+    font-weight: 500;
+}
+@media only screen and (max-width: 780px){
+    .section4 input{
+        width:80%;
+    }
+    .section4 h3{
+        font-size: 18px;
+        padding:15px 0 0 0;
+    }
+}
+@media only screen and (max-width: 650px){
+    .section4 h1{
+        font-size: 30px;
+    }
+    .section4 p{
+        font-size: 22px;
+    }
+    .section4{
+        padding:10vh 50px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .section4 h1{
+        font-size: 24px;
+    }
+    .section4 p{
+        font-size: 20px;
+    }
+    .section4{
+        padding:10vh 40px;
+    }
+    .section4 input{
+        width:90%;
+    }
 }
