@@ -76,6 +76,16 @@ main{
     font-size: 18px;
     color:rgb(228, 226, 226);
 }
+.hero .first .head button{
+    padding:10px 20px;
+    background: #FAD201;
+    color:#0D4B4B;
+    border:none;
+    border-radius: 5px;
+    margin:20px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
 .hero .first nav{
     display: flex;
     flex-direction: row;
