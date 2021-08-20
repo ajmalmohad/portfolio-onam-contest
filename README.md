@@ -21,3 +21,10 @@
 | Supernova     | ![#FAD201](https://via.placeholder.com/10/0a192f?text=+) `#FAD201` |
 | White          | ![#FFFFFF](https://via.placeholder.com/10/e6f1ff?text=+) `#FFFFFF` |
 | Whitesmoke         | ![#F5F5F5](https://via.placeholder.com/10/64ffda?text=+) `#F5F5F5` |
+
+
+## Authors
+
+- **Muhammed Ajmal M** - [https://github.com/ajmalmohad](https://github.com/ajmalmohad)
+- **Arjun M S** - [https://github.com/arjun-ms](https://github.com/arjun-ms)
+
