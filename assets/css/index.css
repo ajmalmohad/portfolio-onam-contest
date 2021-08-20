@@ -255,3 +255,48 @@ main{
         margin:15px;
     }
 }
+/* Section 2  */
+
+/* Section 3  */
+.section3{
+    background: #0D4B4B;
+    padding:10vh 80px;
+    position: relative;
+}
+.section3 h1{
+    color:white;
+    font-size: 36px;
+}
+.section3 .history{
+    margin:50px 0;
+    position: relative;
+}
+.section3 .history .time{
+    position: relative;
+    font-size: 18px;
+    line-height: 24px;
+    padding:10px 40px;
+    color:whitesmoke;
+    border-left: thin dotted grey;
+}
+.section3 .history .time::before{
+    /* content:'🌸'; */
+    content:'🌸';
+    display: block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    top:40px;
+    left:-55px;
+}
+@media only screen and (max-width: 620px){
+    .section3{
+        padding:10vh 50px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .section3{
+        padding:10vh 30px 10vh 50px;
+    }
+}
